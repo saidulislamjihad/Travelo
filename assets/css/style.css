@@ -140,7 +140,7 @@ b,sup,sub,del,u {
     /*small btn css*/
 .nav-toggle-btn .btn-inner {
     width: 26px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
     position: relative;
     transition: all .4s ease;
 }
@@ -149,7 +149,7 @@ b,sup,sub,del,u {
     width: 40px;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     padding: 5px;
     border-radius: 5px;
     display: none;
@@ -162,7 +162,7 @@ b,sup,sub,del,u {
     height: 1px;
     width: 26px;
     position: absolute;
-    background: #ffffff;
+    background: #000000;
     top: -7px;
 }
 .nav-toggle-btn .btn-inner:after {
@@ -170,7 +170,7 @@ b,sup,sub,del,u {
     height: 1px;
     width: 26px;
     position: absolute;
-    background: #ffffff;
+    background: #000000;
     top: 7px;
 }
 /*Header secton Nav css End*/
@@ -2324,7 +2324,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         padding-top: 100px;
         width: 50%;
         height: 100vh;
-        background: #222222;
+        background: #ffffff;
         align-items: flex-start;
         padding-left: 5%;
         z-index: 99;
